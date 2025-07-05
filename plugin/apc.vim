@@ -130,7 +130,7 @@ function! s:apc_enable()
 	let b:apc_init_bs = 1
 	let b:apc_init_cr = 1
 	let b:apc_save_infer = &infercase
-	setlocal infercase
+	" setlocal infercase
 	let b:apc_enable = 1
 endfunc
 
